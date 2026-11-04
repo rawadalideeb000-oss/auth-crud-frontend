@@ -1,0 +1,5 @@
+@import "tailwindcss"; /* Load Tailwind before other styles. @import is CSS syntax for including a stylesheet. */
+
+/* Tailwind utilities are used in JSX, for example className="text-xl font-bold". */
+/* WHY this import? It provides Tailwind's theme, base styles, and generated utility classes. */
+/* You can write ordinary CSS below too; installing Tailwind does not require converting every existing style. */
