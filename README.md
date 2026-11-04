@@ -1,5 +1,13 @@
 # React + TypeScript + Vite
 
+## Formatting
+
+Run `npm run format` to format the project, or `npm run format:check` to check formatting without changing files.
+
+Prettier uses an 80-character line-width target, two-space indentation, single quotes, and no optional semicolons. Some strings and other expressions may remain longer than the target.
+
+In VS Code, install the recommended **Prettier - Code formatter** extension (`esbenp.prettier-vscode`). The workspace settings enable formatting on save. The project's pinned Prettier version is used by both the commands and extension.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -41,7 +49,6 @@ export default defineConfig([
     },
   },
 ])
-
 ```
 
 You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
@@ -71,5 +78,4 @@ export default defineConfig([
     },
   },
 ])
-
 ```
