@@ -1,5 +1,6 @@
 import { Navigate, Routes, Route } from 'react-router'
 import LoginPage from './Pages/LoginPage'
+
 function App() {
   return (
     <Routes>
